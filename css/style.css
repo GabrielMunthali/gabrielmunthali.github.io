@@ -56,10 +56,12 @@ body {
     border-radius: 50%;
 }
 
-.welcome-heading {}
+.welcome-heading {
+    font-size: 14px;
+}
 
 .welcome p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.5;
     margin: 0;
 }
