@@ -40,6 +40,7 @@
     .hero-item button{
         font-size: var(--regular-font);
         padding: 15px;
+        letter-spacing: 0;
     }
     .about{
     }
