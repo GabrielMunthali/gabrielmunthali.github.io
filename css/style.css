@@ -19,7 +19,7 @@
     --main-weight: 300;
     --bigger-weight: 500;
     --box-shadow: #64646F33 0px 7px 29px 0px;
-    --border-radius: 8px;
+    --border-radius: px;
 
 }
 
@@ -506,6 +506,7 @@ ul.canvas-socials {
     text-transform: capitalize;
 }
 .review-desc p{
+    font-size: var(--main-font);
     margin-bottom: 12px;
 }
 .owner-reply{
