@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leaflet | Product</title>
+    <title>Leaflet | Checkout</title>
 
 
 
@@ -139,131 +139,93 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container mb-5">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6 mb-5">
                 <div class="row">
-                    <div class="col-md-6 product-item">
-                        <a href="product.html"><img class="img-fluid" src="img/plant (7).jpg" alt=""></a>
-                    </div>
-                    <div class="col-md-6 product-item">
-                        <h5><a href="product.html">Cactus in a brown vase</a></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur minima veritatis! Vitae sunt incidunt.</p>
-                        <h4>K5000</h4>
-                        <form class="mb-3">
-                            <div class="product-label">
-                                <label>Color</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="colorRed" value="Red">
-                                <label class="form-check-label" for="colorRed">Red</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="colorBrown" value="Brown">
-                                <label class="form-check-label" for="colorBrown">Brown</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="colorBlack" value="Black">
-                                <label class="form-check-label" for="colorBlack">Black</label>
-                            </div>
-                        </form>
-                        <form class="mb-3">
-                            <div class="product-label">
-                                <label>Size</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="sizeS" value="S">
-                                <label class="form-check-label" for="sizeS">S</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="sizeM" value="M">
-                                <label class="form-check-label" for="sizeM">M</label>
-                            </div>
-                            <div class="form-check form-check-inline check-btn py-1 px-3">
-                                <input class="form-check-input" type="checkbox" id="sizeL" value="L">
-                                <label class="form-check-label" for="sizeL">L</label>
-                            </div>
-                        </form>
-                        <form class="mb-3">
-                            <label for="quantitySelect" class="form-label product-label">Quantity</label>
-                            <select class="form-select" id="quantitySelect" aria-label="Select quantity">
-                                <option selected>1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                            </select>
-                        </form>
-                        <button class="buy-btn py-3 px-3"><a href="#" class="text-white text-decoration-none">Buy <span
-                                    class="fa fa-solid fa-bag-shopping"></span></a></button>
-                    </div>
-                    <span class="title mt-3">Customer Reviews <span
-                            class="fa fa-light fa-comments-dollar"></span></span>
-                    <div class="col-md-12">
-                        <div class="review d-flex gap-4">
-                            <img class="img-fluid" src="img/usr.png" alt="">
-                            <div class="review-desc">
-                                <div class="d-flex justify-content-between">
-                                    <h5>Katana Gabby</h5>
-                                    <span><i class="fa fa-solid fa-clock"></i> Just now</span>
-                                </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe nobis, in
-                                    excepturi cum provident
-                                </p>
-                                <div class="owner-reply d-flex gap-4">
-                                    <img src="img/me1.jpg" alt="">
-                                    <div class="owner-desc">
-                                        <h5>Customer Support</h5>
-                                        <p>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia saepe
-                                            nobis.
-                                        </p>
+                    <span class="title">Checkout <span class="fa fa-light fa-shopping-bag"></span></span>
+                    <div class="col-md-12 ">
+                        <div class="dp">
+                            <div class="orders">
+                                <div class="order d-flex gap-4">
+                                    <a href="product.html" class="order-image-link">
+                                        <img class="img-fluid order-image" src="img/plant (3).jpg" alt="Fine Plant">
+                                    </a>
+                                    <div class="order-desc flex-grow-1">
+                                        <div class="d-flex justify-content-between order-header">
+                                            <h4 class="order-title"><a href="product.html" class="order-title-link">Fine Plant</a></h4>
+                                            <span class="order-price">K2000</span>
+                                        </div>
+                                        <div class="d-flex gap-4 order-details">
+                                            <span class="order-size">Size: S</span>
+                                            <span class="order-color">Color: Green</span>
+                                            <span class="order-quantity">Qty: 1</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <span class="title">Write a review <span class="fa fa-light fa-comment-dots"></span></span>
-                    <div class="col-md-12">
-                        <div class="review-reply">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <label class="review-label" for="First name">First Name</label>
-                                        <input type="text" class="form-control review-form" placeholder="e.g Katana"
-                                            aria-label="First name">
-                                    </div>
-                                    <div class="col-6">
-                                        <label class="review-label" for="last name">Last Name</label>
-                                        <input type="text" class="form-control review-form" placeholder="e.g Gabby"
-                                            aria-label="Last name">
-                                    </div>
-                                    <div class="col-12">
-                                        <label class="review-label" for="review">Review</label>
-                                        <textarea class="form-control review-text" name="" id="" cols="30"></textarea>
-                                    </div>
-                                    <div>
-                                        <button type="submit" class="review-btn py-3 px-3">Send Review <span
-                                                class="fa fa-solid fa-paper-plane"></span></button>
-                                    </div>
-                                </div>
-                            </form>
+                            <div class="d-flex justify-content-between order-sub">
+                                <ul class="order-sum list-unstyled">
+                                    <li>Sub Total</li>
+                                    <li>Delivery</li>
+                                </ul>
+                                <ul class="order-sum list-unstyled">
+                                    <li>K2000</li>
+                                    <li>K0.00</li>
+                                </ul>
+                            </div>
+                            <div class="d-flex justify-content-between order-total">
+                                <span>Total</span>
+                                <span>K2000</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <div class="row">
-                    <span class="title">Simiral Products <span class="fa fa-light fa-circle-nodes"></span></span>
-                    <div class="simiral-prod">
-                        <a href="product.html"><img class="img-fluid" src="img/plant (6).jpg" alt=""></a>
-                        <div class="simiral-desc">
-                            <h4><a href="product.html">Green vase plant</a></h4>
-                        </div>
-                    </div>
-                    <div class="simiral-prod">
-                        <a href="product.html"><img class="img-fluid" src="img/plant (10).jpg" alt=""></a>
-                        <div class="simiral-desc">
-                            <h4><a href="product.html">white vase plant</a></h4>
+                    <span class="title">Delivery & Payment <span class="fa fa-light fa-money-check-dollar"></span></span>
+                    <div class="col-md-12">
+                        <div class="dp">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label class="dp-label" for="First Name">First Name</label>
+                                        <input type="text" class="form-control dp-form" placeholder="e.g Katana" aria-label="First Name">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="dp-label" for="Last Name">First Name</label>
+                                        <input type="text" class="form-control dp-form" placeholder="e.g Gabby" aria-label="Last Name">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="dp-label" for="email">E-Mail</label>
+                                        <input type="email" class="form-control dp-form" placeholder="e.g gabmunthali@gmail.com" aria-label="Email">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="dp-label" for="phone">Phone</label>
+                                        <input type="tel" class="form-control dp-form" placeholder="e.g 0993996717">
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="dp-label" for="address">Address</label>
+                                        <textarea name="address" class="form-control dp-text" id=""></textarea>
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="dp-label" for="Card Number">Card Number</label>
+                                        <input type="text" class="form-control dp-form" name="" placeholder="2111 2222 2222 2222">
+                                    </div>
+                                    <div class="col-6">
+                                        <label class="dp-label" for="Expiry">Expiry</label>
+                                        <input type="text" class="form-control dp-form" name="" placeholder="MM/YY">
+                                    </div>
+                                    <div class="col-4">
+                                        <label class="dp-label" for="CVC">CVC</label>
+                                        <input type="text" class="form-control dp-form" placeholder="123">
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="place-btn py-3 px-3">Place Order <span class="fa fa-solid fa-shopping-bag"></span></button>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
