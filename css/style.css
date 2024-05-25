@@ -622,8 +622,6 @@ textarea.review-text:focus {
 }
 
 .cart-page {
-    border: solid 1px var(--grey-color);
-    padding: 20px 20px;
 }
 
 .cart-orders {
