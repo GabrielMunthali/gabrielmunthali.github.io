@@ -634,8 +634,8 @@ textarea.review-text:focus {
 }
 
 .cart-order img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     object-fit: cover;
     border: var(--border-radius);
 }
@@ -704,8 +704,8 @@ ul.cart-order-sum {
 }
 
 .order img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     object-fit: cover;
     border: var(--border-radius);
 }
